@@ -1,4 +1,5 @@
-const DefaultPage = () => {
-  return <div>default</div>;
+const Default = () => {
+    return <div>Default Page</div>;
 };
-export default DefaultPage;
+
+export default Default;
