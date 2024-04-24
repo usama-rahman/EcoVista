@@ -4,14 +4,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "EcoVista",
-    description: "One Place Dashboard for Eco Information",
+  title: "EcoVista",
+  description: "One Place Dashboard for Eco Information",
 };
 
 export default function RootLayout({ children }) {
-    return (
-        <html lang="en">
-            <body className={inter.className}>{children}</body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
 }
