@@ -1,5 +1,5 @@
-import LocationDetector from "@/components/LocationDetector";
+import Landing from "@/components/Landing";
 
 export default function Home() {
-  return <LocationDetector />;
+  return <Landing />;
 }
